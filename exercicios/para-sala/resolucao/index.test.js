@@ -6,6 +6,16 @@
 //aqui é a sintaxe do teste, expect() recebe o que eu desejo testar, que função e com qual parâmetro
 //e o resultado que eu espero no .toEqual(), que tem variações também (toBe(), notToBe(), etc...)
 
+
+//CodeReview:
+//Não sei se tinhamos que fazer CodeReview também da tarefa para sala, mas quando clonei o repositório para minha máquina
+//ele acusou erro na importação das funções convertCelsiusToFahrenheit, checkEvenNumber e Calculador
+
+//Os caminhos que deram certo para mim foram: ('../index') para importar convertCelsiusToFahrenheit, checkEvenNumber
+// e ('./resolucao') para importar a Calculadora
+
+//E os testes esperavam receber 10, mas receberam 9.
+
 const {convertCelsiusToFahrenheit, checkEvenNumber} = require ('./index.js');
 const {Calculadora} = require ('../resolucao.js');
 
