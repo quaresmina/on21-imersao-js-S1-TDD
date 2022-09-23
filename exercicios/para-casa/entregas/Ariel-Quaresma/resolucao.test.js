@@ -1,6 +1,8 @@
 
 const { ContaBanco } = require('./resolucao.js')
 
+//CodeReview:
+//O nível de Javascript me parece intermediária/avançado! Não pude trazer nenhuma contribuição, mas executei os teste e todos passaram, parabéns pelo bom trabalho! :)
 
 //---TESTES DO CONSTRUTOR---
 //Se todos os atributos estão sendo setados corretamente e retornados pelos seus getters, e se estão aceitando valores vazios ou inválidos
